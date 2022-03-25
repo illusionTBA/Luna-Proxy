@@ -22,8 +22,15 @@ requestAnimationFrame(
  */
 
 
+//Tab Title
+let title = localStorage.getItem("title"),
+    icon = localStorage.getItem("icon"),
+    pageicon = document.getElementById("pageicon");
+const titleBTN = document.querySelector("#cloakTitle");
+const titlechange=document.querySelector('#cloakInput');
 
 function tabtitle() {
+    console.log(titlechange.value, titleBTN)
     window.localStorage.setItem("title", titlechange.value);
     window.document.title = titlechange.value;
 };
@@ -31,6 +38,7 @@ function tabtitle() {
 if (window.localStorage.hasOwnProperty('title')) {
     document.title = title;
 };
+
 
 
 //Tab Icon
