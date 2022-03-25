@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
@@ -58,6 +61,9 @@
      background-repeat: no-repeat;
 }
 
+buttons:hover{
+  cursor: pointer;
+}
 
 #mainHead{
     position: absolute;
@@ -290,7 +296,7 @@ select{
     position: absolute;
     z-index: 99999;
     color: white;
-    background-color: rgba(51, 50, 50, 0.507);
+    background-color: rgba(136, 130, 143, 0.54);
     font-size: 20px;
     right: 50%;
     transform: translate(50%,50%);
@@ -314,4 +320,19 @@ select{
 }
 #cloakTitle:hover{
   cursor: pointer;
+}
+
+
+
+#homepageBtn{
+  font-family: 'Lato', sans-serif;
+  border:none;
+  background-color:rgba(171, 156, 164, 0);
+  font-size:20px;
+  color: white;
+  position: absolute;
+  right:50%;
+  top:50%;
+  transform: translate(50%,50%);
+  
 }
