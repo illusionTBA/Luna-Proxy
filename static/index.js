@@ -33,7 +33,7 @@ wombtn.addEventListener('click', function(exitbtn) {
   let url = input.value.trim();
   if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
   else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
-  iframe.src = "your womginx url here"+url;
+  iframe.src = "[your womginx url]/main/"+url;
 
 })
 
