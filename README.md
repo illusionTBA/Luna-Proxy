@@ -5,5 +5,5 @@
 <a href="https://heroku.com/deploy/?template=https://github.com/illusionTBA/Luna-Proxy" rel="nofollow"><img src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/heroku.svg" alt="Deploy to Heroku" style="max-width: 100%;"></a>
 
 
-## <h2 id="Womginx">How to use womginx</h2>
+## <h2 id="Womginx">Womginx Setup</h2>
 - you need to host your own womginx proxy. [Womginx Repo](https://www.google.com)
