@@ -34,6 +34,7 @@ function getCookie(cname) {
 
 
 uvbtn.addEventListener('click', async event => {
+  alert("This may take a second or two so do not reload this page!")
   event.preventDefault();
   window.navigator.serviceWorker.register('./sw.js', {
     scope: __uv$config.prefix
