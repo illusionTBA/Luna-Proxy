@@ -7,3 +7,4 @@
 
 ## <h2 id="Womginx">Womginx Setup</h2>
 - you need to host your own womginx proxy. [Womginx Repo](https://www.google.com)
+- Assuming you have done that you need to navigate to `static/index.js` and go to where it says `womurl` and change the one in quotations to your owm. (make sure to add `/main/` at the end if you deleted it)
