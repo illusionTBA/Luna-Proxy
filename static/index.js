@@ -56,7 +56,7 @@ function isUrl(val = '') {
 
 
 // womginx
-let womurl = "https://herokuap.floating.cf/main/";
+let womurl = " https://abcdefgggg-hcmstrash.herokuapp.com/main/";
 const wombtn = document.querySelector('#womBtn');
 
 wombtn.addEventListener('click', function (exitbtn) {
@@ -87,7 +87,12 @@ exitbtn.addEventListener('click', function (exitbtn) {
 
 
 reloadbtn.addEventListener('click', function (exitbtn) {
-  iframe.src = iframe.src;
+  if (iframe.src != null) {
+    iframe.src = iframe.src;
+
+  } else {
+    console.log("cannot reload")
+  }
 
 })
 
