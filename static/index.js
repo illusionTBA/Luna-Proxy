@@ -57,10 +57,12 @@ function isUrl(val = '') {
 
 
 // womginx
-let womurl = " https://abcdefgggg-hcmstrash.herokuapp.com/main/";
+// replace womurl with your own if it stops working
+let womurl = "https://mobamba.herokuapp.com/main/";
 const wombtn = document.querySelector('#womBtn');
 
 wombtn.addEventListener('click', function (exitbtn) {
+  alert("This may take a second or two so do not reload this page!")
   let url = input.value.trim();
   if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
   else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
