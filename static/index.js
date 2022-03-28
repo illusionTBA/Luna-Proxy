@@ -58,7 +58,7 @@ function isUrl(val = '') {
 
 // womginx
 // replace womurl with your own if it stops working
-let womurl = "https://mobamba.herokuapp.com//main/";
+let womurl = "https://mobamba.herokuapp.com/main/";
 const wombtn = document.querySelector('#womBtn');
 
 wombtn.addEventListener('click', function (exitbtn) {
