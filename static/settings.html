@@ -1,47 +1,43 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luna Proxy</title>
-    <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" href="./images/moon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!---put a div in the middle of the screen-->
+      <div class="settingsTab">
+        <h1 class="mainHead">tabcloaking</h1>
 
-
-        <div class="wrapper">
-            <!---put a div in the middle of the screen-->
-            <div class="settingsTab">
-                <h1 class="mainHead">tabcloaking</h1>
-      
-                <select id="redirSelect">
-                    <option value="tb" id="tb">Tab Cloaking</option> 
-                    <option value="particles" id="particles">background</option>
-
-                </select>
-                <div class="tabcloaking" style="display:block;">
-                    <input type="text" name="Cloak" id="cloakInput">
-                    <button id="cloakTitle" class="btn-grad btn1" onclick="tabtitle()" >Title</button>
-                </div>
-              <div class="particleSettings" style="display:none;">
-                    <button id="particleSettings" onclick="tabtitle()" >Title</button> 
-                </div>
-              <button id="homepageBtn">Go Back</button>
-            </div>
+        <select id="redirSelect">
+          <option value="tb" id="tb">Tab Cloaking</option>
+          <option value="particles" id="particles">Coming soon...</option>
+        </select>
+        <div class="tabcloaking" style="display: block">
+          <input type="text" name="Cloak" id="cloakInput" />
+          <button id="cloakTitle" class="btn-grad btn1" onclick="tabtitle()">
+            Title
+          </button>
+          <button id="cloakIcon" class="btn-grad btn2" onclick="tabicon()">
+            Icon
+          </button>
         </div>
+        <div class="particleSettings" style="display: none">
+          <button id="particleSettings" onclick="tabtitle()">Title</button>
+        </div>
+      </div>
+    </div>
 
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
 
-
-        <!-- particles.js container -->
-        <div id="particles-js"></div>
-
-    
-
-
-        <script src="js/particles.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/index.js"></script>
-        <script src="index.js"></script>
-</body>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
